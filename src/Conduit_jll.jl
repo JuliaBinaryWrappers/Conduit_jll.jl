@@ -2,6 +2,7 @@
 baremodule Conduit_jll
 using Base
 using Base: UUID
+using MPIPreferences
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Conduit")

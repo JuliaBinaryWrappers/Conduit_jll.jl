@@ -1,316 +1,826 @@
 [[Conduit]]
 arch = "aarch64"
-git-tree-sha1 = "67a017aba36484637da211ac69345d7d7d06f256"
+git-tree-sha1 = "72d9767ef9f0f1d13eacbbb93caf0aca0cda8d3b"
+mpi = "mpich"
 os = "macos"
 
     [[Conduit.download]]
-    sha256 = "6fa3d4182e7517be9c069ca8c6730604b59c8938394ac3f06b174c5b9a8212c7"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-apple-darwin.tar.gz"
+    sha256 = "ab84547bd47f35da713a34c9cd449ddbc03e1ace9339b03d03aee37d20bf4ad8"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[Conduit]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "81eefe722208913b99596fd04f23c42213cc0eda"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "6967cb746577d937fa0ab06739662147cb05b131cabb415c46088896f1b4071b"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-linux-gnu-cxx03.tar.gz"
-[[Conduit]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b761df7a5f22d1fe5591dc38be8a13383198dcdc"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "8a848fe2217e855e8a431dd1b9c97571fd761a63431af6bc97ff5e1748a03e06"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-linux-gnu-cxx11.tar.gz"
-[[Conduit]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2b9dc14b110fb7745e1e5e8321119cfd254e358a"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "e97bdc684512e1bf22db5fca6921d9a90d3c3ec00446cd2e9056d58e4115d0c4"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-linux-musl-cxx03.tar.gz"
-[[Conduit]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7e909163297dab017d1c677d4af68ca9296c7cfa"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "d56c9f3f47f25fca007f7c06e3567b123799e656787d2a07d20b1ea70595fae1"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-linux-musl-cxx11.tar.gz"
-[[Conduit]]
-arch = "aarch64"
-git-tree-sha1 = "d9484d5d4c28802d170d961902931a99cd432d40"
-os = "freebsd"
-
-    [[Conduit.download]]
-    sha256 = "a7a777359f7fe7e008c6d1241f786d6d25a755aa1a53424d960181919d05073d"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.aarch64-unknown-freebsd.tar.gz"
-[[Conduit]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "21ca6c8f19874f6c995cb5aac18f2949f4e08d10"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "8f13d914ce96f357b14a488b00f69ad0711cd5bfcf4818b6d4fbff3ddac9d0b9"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv6l-linux-gnueabihf-cxx03.tar.gz"
-[[Conduit]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "53f4340091adcec8b4f86d6ddc7e317d332b2614"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "bf379ecce0b5c504320ea5001385c3f470f720d10399812ae31070882bf2ea6e"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[Conduit]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0ed8323f2b3a25cec26095b775c66a9339c16541"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "c31a74401520b8eb040fc819d55cc8fd196fc99df828fc4fa1c1ed29c49b08be"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[Conduit]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "48403923fb6b4886e6087da9bd957a12444c4378"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "9fbe3e28e8b40cdf1aa60cbdac70cacff1ae226b6afa3c84159b9e384ff7da1d"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[Conduit]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "80a1a7c99f3f71817c023d4048b28b633475fab4"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "f9069db7f49a6ab243ea42df659103bb74343d82c3d82293f9a93ad973f5b53b"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[Conduit]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "9d97e59d482dcaa9a08a96062af200dc5ee80ea3"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "e5471fce66dee3c2a7dfb3201fbccdd36a373557fa7d5a14d157b32ffb7a1b89"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[Conduit]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d0a8d4f33dc8bc6446e76494b1ffe94325d621db"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "672c8b25d1d707b8333e365fb94cb00cde9eedbb3dfb868f5c3ab971ecddc4fb"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Conduit]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "1484d2a9a7e82b25741ef78e20c3cfe7ce9114c1"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "5894838068b7cfac0af5b7f63b7fad88e5d21039f8845f5fb272052005edc922"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d5d04b9a328cc5f41615d0ff3c9988ac6ad50440"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "758f90cc4f40b3983738c156d22bf1f91c6b832ac891b3852de9efe7ed4095a1"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-linux-gnu-cxx03.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d198b29e652ce1a986b58edcb30a0320e19752a4"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "99fb22a15356533f66e3218163db149ec3946b75f7d9ab72c21568a5eff87157"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-linux-gnu-cxx11.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a26cf7cdad402e226683b8854f5ed73d1cb905f0"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "4dbdd118baeed44f5b3e5b0f2450fa8c6025090c81bc2e0d18c9c34f0fa065dc"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-linux-musl-cxx03.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "204941856a86ca25687dc9906fcf2af6ce8dd833"
-libc = "musl"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "d49f6e097e00bae52c81c77b4f8acc88b8b78c8c50999666961a38922db50726"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-linux-musl-cxx11.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "798900caeea1747f6f44375ac9cddce8aa1b3a57"
-os = "windows"
-
-    [[Conduit.download]]
-    sha256 = "9450cdffaff38090e92f7ec5095254456ab4e7884643e4a67d6d72053bbe5e80"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-w64-mingw32-cxx03.tar.gz"
-[[Conduit]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "85ae1c0093f3627d0a6b099e9f4047bc1f66ef14"
-os = "windows"
-
-    [[Conduit.download]]
-    sha256 = "dc10e5b41bbf9821735255e77a185d45447ffaaf5ca678e4289aa3811f4022f8"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.i686-w64-mingw32-cxx11.tar.gz"
-[[Conduit]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "7f6eb7f388be459752348a82147e3a9a7f5409bb"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "220ed32159a55ed43dcde045afc2904acc497c5ae9a60211b53bd90a1011e10b"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Conduit]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "565300e708f4500c3c31d190810073c69886886a"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "3dca6dbd624eeecc9906f4c7e18e41c46356b649420c761686984c89e4ef9766"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[Conduit]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "97e4087d701a6a2c7a0830bfda92b03f791874cd"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "ee03a8ecf0fadc0a965d1730718726cd0b4e09bfbfe873a656c5a491dfe684cc"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.riscv64-linux-gnu-cxx03.tar.gz"
-[[Conduit]]
-arch = "riscv64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7a5c9f1e3734966ab0e1f50bbf7c120b3311d716"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "258412359d298e5cf77dcf3ac84b2d83f87e566aa5a7373488d931bd8c538783"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.riscv64-linux-gnu-cxx11.tar.gz"
-[[Conduit]]
-arch = "x86_64"
-git-tree-sha1 = "bc2e4fefdd6b60853ee7ea3b778e863b0e2fb5de"
+git-tree-sha1 = "6eab0a45a3708253c58fb0712dac8fe03cdfac04"
+mpi = "mpitrampoline"
 os = "macos"
 
     [[Conduit.download]]
-    sha256 = "d6c9f8c49a19721c3e4fa6fcdef4b32bca3fc36c9332f0cc81563791dcfadb6d"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-apple-darwin.tar.gz"
+    sha256 = "9faf7c6c5a79ffb920bca520d8dd42c3c431a45a6eb310656928c217b2972371"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[Conduit]]
-arch = "x86_64"
+arch = "aarch64"
+git-tree-sha1 = "73f25275d3f267ae263d0c29cf1e213f4c4210f9"
+mpi = "openmpi"
+os = "macos"
+
+    [[Conduit.download]]
+    sha256 = "3b5fc65b828ea17d4696fb1c4fad5d274c5ac914d47f3f6e4de5cceb2df27e69"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9cf5c935bd867ff81d13de0eedfa511aa9ca7da9"
+git-tree-sha1 = "ca6da3ea5fac65b1e2047ea5df34d4bad434dbf0"
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[Conduit.download]]
-    sha256 = "286cb73c1c64448f861b65e5d3c6a39ae78602cd0e6cbb596244ef01925c9b90"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "8b711de5a91081b1ea23fb80f58380effa3e16ac7a1cfe0ec7225e3b96985727"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[Conduit]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "404a4334e2a9a7bcbec70202896325a167a66073"
-libc = "glibc"
-os = "linux"
-
-    [[Conduit.download]]
-    sha256 = "593594270bb482e5cca6be2549351c3c5ebe26751de7e016361049bcee42f2e1"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-linux-gnu-cxx11.tar.gz"
-[[Conduit]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4602dfb4ca2c0826a84d437476fa7703948b55d0"
-libc = "musl"
+git-tree-sha1 = "bd8f8d85eba0b0e8b9ffab059a4d1580a69e3c1d"
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[Conduit.download]]
-    sha256 = "199a4b08f8f9e1c0e44138721f5c3b3699611a559a1097ec0dc6108dd5d2c348"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "e0ac6ef8cd2e91a5ab23f52d32eda456c29afed965c64001494011236cd61bbf"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
 [[Conduit]]
-arch = "x86_64"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "50300bc09bdd32c0b2bf4cc479e0f6b3845e6372"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "75ff1aad5c316844fa71487b6532e2bf3100762bc6cadf6e64938efd4bf457aa"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "73f9b30100c32279838fcc451f524a6f5e481e67"
-libc = "musl"
+git-tree-sha1 = "38361961b32ad4d79c354dc0b155a33ee41b8c8b"
+libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[Conduit.download]]
-    sha256 = "0bdc1c2d837fb2b11e9f38982d90af95194115f66d545e7a5b9e1f44c90cf671"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "71981671817606e4febbcbdcdacb3f3ed922b2053be7cac274832689f4c5cee6"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[Conduit]]
-arch = "x86_64"
-git-tree-sha1 = "63318c2f4a6af8dd81ef3f5593827503320201db"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f2bc7252cb6136cb1a187599a41e01210b5b29f9"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "936fd51c638a3453fd3a291802ce9d01ada0ef1b960d4aaed5f022684216c4af"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "21f7b5f26bb7e2f3399b07986973d3436d1a891c"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "04fcbd0cffd11266bca36e8ab480fb4127d9085dcf605b1325c21798f26efaba"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cdd2562cbc0db2b9cb5121efaaa8788614f901c8"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "edb885dda140acabb5a6cccdfe644b88874b6fa837d1e660ea7f5fdac876c9af"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3fa0f5b30bd5bf5cefc7e10001bb6b8175a04aee"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "a0b9f24050a09e20d270802c938374d62389473718ef2587cffc4cfe70b542d6"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4c6232f45b792ab13df048e27fbc24af031e73a3"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0afdfeabbe73ac8057c0f8d18eeca003784dd8648e801de00fe6094670ecb868"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cea11d55aa32600815ed50b7d4788ab31201018c"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "68ab04563fada3062e3b47b5387d1ac74c11145bbcc587f6ed6ff532d8f6fd04"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+git-tree-sha1 = "00a5808c463f9b08ddd07752020349c619b72a5b"
+mpi = "mpich"
 os = "freebsd"
 
     [[Conduit.download]]
-    sha256 = "a82e587d6f3ca27f027e1f9a8fb2543f147ec606ed769ff03e4a3139d36be2b4"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "bc4e02c9b808dfc06646edfb969bcd97035d46844ed3923480e6b20ba4ff4d03"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+git-tree-sha1 = "0c670227fe048dba7d9fbfab907ba4233ed360f6"
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[Conduit.download]]
+    sha256 = "4fe816b08cfb76f94019d17d56f0d69eb86924d8474a0c9bfdd478282d1d61e7"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "aarch64"
+git-tree-sha1 = "a90baaf84551cb45aba4b1d7e8d018d4e1744174"
+mpi = "openmpi"
+os = "freebsd"
+
+    [[Conduit.download]]
+    sha256 = "e331cb0577bcd98668ee120cc92d1d27adea500c3e2d8e0ba865ad7925cb57a4"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.aarch64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4f65bc05a02795f9e67907cbe668a8186545936b"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0213b5ba660caeb2f814ca8d243b6c20bcf54c4cc320848ee12368b2095c338b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ad7ff8e777f3202ce1fa43c7cedb00d2b4145538"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "e0a9e343d9fd48aeb5507c9bce9158b51dc6b0deec28bee272fa417a0e8a6cd3"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "595ae15e90ab61dd25f57c21e05e4cfb66c286e4"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "1ee50123a712522a8f185c0c4440095d9f067e58f5f9969865da4852f38bb45c"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a27682850b0b552a555ce00cf377cef7dd61222"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "054447802f044d03597bc79360fa357bc563856f3f286bc398437074cfe46d0c"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2e261347567c6f78e34c400fe06b697b02669b4a"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "db664cb0f632b621e3e0267ac3572d669f836e17ac869ff89eff94fd42d33d4d"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-musleabihf-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9071d29c82bd89afba0f089bad5540a7c8956c20"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "cbe64be9b931d81dc10c667ec0a51b67faab950f24a0197ebe2f80ab57bb0d73"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-musleabihf-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1d3e2698ee1b747f84a4dafe395a791d0fd5a385"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "d642f6435b0c066ab568bf0bfc058d0150e84a77712f43fdb34f47cbccb1153a"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-musleabihf-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d3cd319d022008991c3eaeb12f92578091bfab71"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "dad1a655e6416d3cc98c468936c197543447d6798dd41bcb85dbac894c430f04"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv6l-linux-musleabihf-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "07a46d33892231e03ee7b71bc81d7ecbb3a538fe"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "3f9d2293872fd4ab5a582929ea971a83099bc265e866d1d650db8681fceb1bc3"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a20de7a62b642de59cc4627ded622ffd54c2526e"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "79270e1fa1ef35a2322cde435518871eb5d8a2bfbf511f6ad82a51a95444db5f"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ee01c64a472d805211571da79710f4c1a955ede3"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "e856b980d74aef1b2731203fba3addfd750255f4aadf87d6998562ce91ba8384"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "93230ed41e5680fb12ba9d3430517a95fb2a7caa"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "e0acc2739bcd2a175eb2c1ff42531aa2d92954d87840f4a2b55de0a20f9582dd"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bcae46da9a35c37e1eea044e77c17ae667de7212"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "b10ba0aeee41e469dee0d4119404468d103fb6024004de3242d0dcf11837f685"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e6be0f19ed88e201cd81dce0d5cc16679bcc07cb"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "13ffb408813991cfbefed820ae4753a29876be0b208c19805d368f477e01cbc5"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-gnueabihf-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "09fdfb42a9297aec332d5835746a06b2e0fd1650"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "d5d6775054f68bc31780ff2d4a6c13aa02ddc0204b69671db897dfa493fd704f"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-musleabihf-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e96b9a11fb37acc4604236173f2d7e6a1d1bc0c7"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "4f4b87ad110c6d8669127ab13ec3fe9b810822efa504b1431b13addbb9afa591"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-musleabihf-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fc8128d711bc2e1aa6a1649f62f0c6d7af827888"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0aa60b75b8db0d5648e91ede2cbea5d14a19daa86bd710a8f1ee404c7d88811b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-musleabihf-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "12e757dc8581b4274b823b9d9154102702940fdf"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "033ef49100c272b12a0eacc91a0a1b3e21eefd73c0a4b3ca5fd0be77bd92575a"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.armv7l-linux-musleabihf-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6e2b812abcea9e181d1344ff6e420b3495ce6b5d"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "a3330b3cdea5204066a55f961df97458d3d8c8670686d030d02a5bda34dbb30c"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "51ea688e302f8923859848c1ef1783644267f7b1"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "88d15c19b56921a0f7dbedda050e018b2d5863fd2f9dddb58c4f6e021848faf5"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a86c93cafc44e518878a76febfcc2a7ef45e0824"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0d7a7df6b98f942f60c3a8c6fa74d23882ba66b76b98dd823793c3abb1e9457b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6db6757330692a6f4c6c3ad4d2d22aa01b8754f4"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "6aaa8fb636fe474d0d11efc291dcdbbf4be246727001d0fe00f117b0d24adbeb"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5cadbd9b0cc80f20a0fba3518e10297b565a107b"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "1133864b9d175b93383653a9c55dffe5f7b569a1da4e036bf015a8cd95b05c3a"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8fe055f57d3a63f298b22dcb8f18738714c9ef1b"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "5046cb6a52abaa24b6a260540a64cee4c0737c7e3578b25a9b4d27cd7b9a825d"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ecf6c1b3197b6650450d14b88014b29c4a5a602a"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "29466dfa895ad93136fe06eea192f0dbdd06e842e62358454367b1328dfb4d00"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "012e97191d59b661668f9034018da191a805c8df"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "4d7b8406b8243359d72fe2271f869d3c72ed87290f6b3d859dd596d214a99b4f"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8e1ac0d808b98770e85214213fb77f11ce1ae800"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0383992e2df00e19a77630a99cd6ab62c4bcbe7d9292d9ae150bea23ebdfd0fd"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "72fabbe0456463746a38c9848e6d77447d61af02"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "10aa59af83f69c489912a70a558af3965c2697152b1ab488af5879b0907f1cf8"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4097b05ee74612b2cf9fdae7ad1f0324b09a07d0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[Conduit.download]]
+    sha256 = "83c272cecbae201ba79e933a93f7d716ed173aa9a473e9764d359d8183c82466"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
+[[Conduit]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "843ebea541986eb7e956cef4429dc0d0657ab5d5"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[Conduit.download]]
+    sha256 = "cbddea1a1af8e2d6314a9229ed7ea8b764af8e6fb70c75a3b891e13a5a7942cb"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.i686-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0008fed93e84980628838ccabd592332664976be"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "d5df53cc358dc434f67496d599dbb64e263b78065e19e356b02a8a9f76500024"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "304e822bdf54c3bab8ca29bccc35b925d9168cf0"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "08d992347976247c4279abc63ac94e5e3749d6e5d114241543725906628167ae"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "82015bd0e4643f9f572621ab502be08c28508ecc"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "934dc6ab072e162299ea39c98b716fc32ada594fb6ff031aa39ba92f3fb68bc1"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dbd6b2f0a3e67d38833b9ea48b9e290b57986db0"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "580620dfa95ba2423e9943514e1f5607b7d63704492dcb75844c3c62ff949d04"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b972d4e7a19f0c51ac5733e5b51e9b2edf4849b2"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0f2920a300b3d6c768376d44b5ab0aeecedb607c00368d18920109237c87106d"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bc9f8276800ac32a00f606701560fe6ebf12c04a"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "1475848cc9b41ee368ea46850583de7bc6ba80d94147df6a66fc7a6d7070f195"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f2bb9da8c3b25cd7c004eb156735cc387b906b0c"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "821c4d9aae30af1a7959125a73cc8f0627feffee296d1e345d5222f57c47f282"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "245f3f8388932fb4d1d5b22a7ec03eddcd2a972d"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "6c6f85c7dd382be59400f5973e9f6bf6241ad7a64cea1bebd417c2fcfb614a6b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5b67c5f0dbb1f2d1da47cd425f307259d7afb933"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "098704e17420105b29a5c5b9472b78487e5a29801f44da1ca8919508f7bde85c"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "28d044a9e36606656aad425fc8d78325e1e9bf9d"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "65e9b825cb8e78c973427d7f1b56376d77434ac0db0a61a499aad365cb877448"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9a87cb6dcf0f8a56e1ff0202a83650c2ffd8974f"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "b7697a4aa11c418b7b288a9b48d04ec9dffc130cb69135fc7ee01ab4590396fd"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a6c1657e749317fd4acf5c1bef3e2f190aa84206"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0d78bb97c7e95856e557fd4c6abf45424a14a929ddbda496560c3b5fd770f538"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.riscv64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "eec7e971291a77522328cf836d92efc4cc053261"
+mpi = "mpich"
+os = "macos"
+
+    [[Conduit.download]]
+    sha256 = "94ef966eeddba8ec112cfa9886fd2d47a6f599f6e770954df10e662b1146ce77"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "3d46036ccab9806e7b7b9726b4934d9ecff394e8"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Conduit.download]]
+    sha256 = "a0c5a21b5fd6b8d7bc7c25c6f1cbf1afbfd986f8fce1b3338cca0650efe6d4d2"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "e51cb0380e9e5c74242de433b85646c3a84cafa7"
+mpi = "openmpi"
+os = "macos"
+
+    [[Conduit.download]]
+    sha256 = "19e19c0706993aef75ed12fea13c6f203d904aa69b7bda9a83f4fbd44b7f464b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-apple-darwin-mpi+openmpi.tar.gz"
 [[Conduit]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ee243876d41dfa6d46541626e9e0a87e10424f78"
-os = "windows"
+git-tree-sha1 = "4640bac2f1236d0f646bffcd44dd81d6202a0b2a"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
 
     [[Conduit.download]]
-    sha256 = "a233332841e6bb55518a634f22b5eca3c05144c1ec25a7790bdab78e605165eb"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "fb98c7fb7e66ed370f83af572df066fa247eff9eb073bde4643227b6a77a6c98"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e617df843abf20c281ba1c90f0a54fcd6e5ea1c4"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0cbb5871a059b9ec1c77f5243417cdb920bfacc1d1afd670b3d4c468d5f672a2"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ac8382dcfc64fa343709dc2e1b370f94fe81017f"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "8ce71d561abbe636193f753a526092690e1974ad890c064c50cf2b85d2508b9c"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[Conduit]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c4036af4dd7a410785fde3e6736fe8e8e8ce536a"
+git-tree-sha1 = "3448ae318617161c245f76254805054bf164d575"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "a0c300ac1303a3694693fe338621b548e215812635ebe66c6195f64e8471474b"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5b6020354e617665de9d4aca3c5e6f8ddee91ca5"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "f8612b01546819457edbe85edb6bc77c9e33c634eb8754ab71a303e185186384"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4b33ba55237127b01a64bcf0e2e25858766ffdce"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "a37402536d8da49fefa6d3fe764f8733f60104f5490055a7ca7b1ce07b781cd8"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7a9cb7f90a8da46bd6fa4c66144263f390c2414e"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "658b68e91bda7a078c5e84555c77ba5c07893307f9a5e49be8d903e22831701e"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f3cac134b83659004a91dd0dde62d0aae13e6070"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "fdcfc7ec8b111df59fcf40bd59ab8770ca900c130606f685e5d3c58aa75ec215"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6a2a67c347b02642753b1e96d85c6b27baadd48b"
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "0004574b6b1cfeeefec8a66cf710a3cab7e6df5a78b178980024af72726c5c39"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9be4146de8ad9969db152a2e8e3f0f629ba48bdf"
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[Conduit.download]]
+    sha256 = "ea3f23bf801debf8bebae35063301f52a8f40cac1ee6c984d33ddf3d954ad9f5"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "93aca1294245406ddd8e2781c15c2944355991f6"
+mpi = "mpich"
+os = "freebsd"
+
+    [[Conduit.download]]
+    sha256 = "0bdd7d6952dc0a54ec2685a2b857ab01606341d546a234203f9ac7c2b12f25d7"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "4574a3ae84d67bc1cdae7d0851fd1a67f7587285"
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[Conduit.download]]
+    sha256 = "10e9b8ae5f701f77d33fea423086f0077e81cdd0b6362bd8106f1f85ffb875e0"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+git-tree-sha1 = "38a9960da6f038192b9327a01376a6c45851800c"
+mpi = "openmpi"
+os = "freebsd"
+
+    [[Conduit.download]]
+    sha256 = "36f71cad28120ffeb2c15c320bee3a66cfc155d33dc7605131d7b6409c43fac5"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2f25297bd647bf907ce7515d6b3a17871f28f8bf"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[Conduit.download]]
-    sha256 = "5f3d6516d214ffe437556867661c28d271b4a3605400b3491154d2ff95f99b15"
-    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.3+0/Conduit.v0.9.3.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "049f83d49bbccb06da0748178a2b89aa4213a6d1951a58d11448291b273621cc"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
+[[Conduit]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ab9b6c8282ca1d816d6fae2d936a69878a1eca22"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[Conduit.download]]
+    sha256 = "d2f1b93841db690d70c158f93a8e824bc116de72ac76780de6fab278168b7386"
+    url = "https://github.com/JuliaBinaryWrappers/Conduit_jll.jl/releases/download/Conduit-v0.9.4+0/Conduit.v0.9.4.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
