@@ -3,6 +3,7 @@ export conduit_adjset_validate, conduit_blueprint_verify, conduit_generate_data,
 
 using CompilerSupportLibraries_jll
 using HDF5_jll
+using Silo_jll
 using Zlib_jll
 using zfp_jll
 using MPICH_jll
@@ -16,7 +17,7 @@ JLLWrappers.@declare_executable_product(conduit_generate_data)
 JLLWrappers.@declare_executable_product(conduit_relay_io_convert)
 JLLWrappers.@declare_executable_product(conduit_relay_io_ls)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, HDF5_jll, Zlib_jll, zfp_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, HDF5_jll, Silo_jll, Zlib_jll, zfp_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libconduit,
         "lib/libconduit.so",
